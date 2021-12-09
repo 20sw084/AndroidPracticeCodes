@@ -1,0 +1,265 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:rowCount="4"
+    android:columnCount="4">
+    <Button
+        android:id="@+id/Button7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button7"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        tools:ignore="HardcodedText">
+    </Button>
+    <Button
+        android:id="@+id/Button8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button8"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText">
+    </Button>
+    <Button
+        android:id="@+id/ButtonDivide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/ButtonDiv"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button4"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button5"
+        android:textColor="@color/black">
+    </Button>
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button6"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/ButtonMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/ButtonMul"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button1"
+        android:textColor="@color/black">
+    </Button>
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button2"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button3"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/ButtonMinus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:shadowColor="#dae0b8"
+        android:text="@string/ButtonSub"
+        android:textColor="@color/black">
+    </Button>
+    <Button
+        android:id="@+id/Button0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/Button0"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/ButtonPoint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:shadowColor="#dae0b8"
+        android:text="@string/ButtonPoint"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        >
+    </Button>
+    <Button
+    android:id="@+id/ButtonEquals"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:shadowColor="#dae0b8"
+    android:text="@string/ButtonEquals"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="30sp"
+    >
+</Button>
+    <Button
+    android:id="@+id/ButtonPlus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:shadowColor="#dae0b8"
+    android:text="@string/ButtonAdd"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="30sp"
+    >
+</Button>
+
+</GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--    android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingTop="@dimen/activity_vertical_margin"-->
+<!--    tools:context=".MainActivity">-->
+
+
+
+
+<!--    <TextView-->
+<!--                        android:text="Babar Azam"-->
+<!--                        android:background="#a4c639"-->
+<!--                        android:textColor="#800000"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textSize="45sp"-->
+<!--        />-->
+
+
+<!--<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <TextView-->
+<!--        android:text="Jonny"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <TextView-->
+<!--        android:text="Jonny"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="700dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/babarazam"-->
+<!--        android:textSize="45sp" />-->
+
+
+<!--</LinearLayout>-->
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <ImageView-->
+<!--        android:src="@drawable/babarazam"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:scaleType="centerCrop" />-->
+
+<!--    <TextView-->
+<!--        android:text="You're invited!"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="0"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="54sp"-->
+<!--        android:background="#001688" />-->
+
+<!--    <TextView-->
+<!--        android:text="Bonfire at the beach"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="0"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="34sp"-->
+<!--        android:background="#003685" />-->
+
+<!--</LinearLayout>-->
+
+<!--</RelativeLayout>-->
